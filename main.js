@@ -24,9 +24,12 @@ function draw() {
     if (leftwristscore>rightwristscore) {
         song1.play()
         song2.stop()
+        document.getElementById("songname").innerHTML="song name = one piece theme song"
     }else{
         song2.play()
         song1.stop()
+        document.getElementById("songname").innerHTML="song name = harry potter theme"
+
     }
 }
 
